@@ -1,0 +1,693 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;1,6..12,500&family=Nunito:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-style: normal;
+    scroll-behavior: smooth;
+    z-index: 99;
+}
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+.container {
+    width: 95%;
+    margin: auto;
+}
+
+.section1 {
+    height: 100vh;
+    width: 100%;
+}
+
+.section1 .one .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 20px 0;
+    z-index: 10;
+}
+
+.section1 .one .header i {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.section1 video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.section1 .one .text-content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.section1 .one .text-content .head h1 {
+    font-size: 6.8vw;
+    font-weight: 600;
+    line-height: 7rem;
+}
+
+.section1 .one .text-content .head span {
+    color: yellow;
+}
+
+/* CURSOR */
+.cursor {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 80;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* =================================section2=================================== */
+
+.section2 {
+    min-height: 100vh;
+    width: 100%;
+    cursor: pointer;
+
+}
+
+.section2 video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* ===========================section3======================== */
+
+.section3 {
+    min-height: 100vh;
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section3 .three {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section3 .three .left,
+.section3 .three .right {
+    width: 100%;
+    height: 100%;
+}
+
+.section3 .three .left video {
+    width: 80%;
+    height: 80%;
+}
+
+.section3 .three .right h1 {
+    margin: 30px 0;
+    font-weight: 500;
+}
+
+/* ======================================section4-============================ */
+
+.section4 {
+    min-height: 100vh;
+    height: 100%;
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.section4 .services {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.section4 .services:hover {
+    background-color: #0f0f0f;
+
+}
+
+.section4 .services:hover h5 {
+    color: white;
+}
+
+.section4 .four .moving-text .text {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    margin: 50px 0;
+}
+
+.section4 .four .moving-text .text .first {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    animation: move linear infinite 15s;
+}
+
+.section4 .four .moving-text .text .first video {
+    height: 150px;
+    width: 150px;
+    margin: 0 50px;
+}
+
+.section4 .four .moving-text .text .first h1 {
+    font-size: 6vw;
+    text-transform: uppercase;
+}
+
+@keyframes move {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+/* ============projects========== */
+
+.section4 .four .projects {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    z-index: 10;
+    overflow: hidden;
+}
+
+.section4 .four .projects .bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.section4 .four .projects .bg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0f0f0f6e;
+    z-index: 1;
+}
+
+.section4 .four .projects .bg video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: relative;
+    display: none;
+}
+
+.section4 .four .projects .first-project .first {
+    margin: 100px 0;
+    padding: 40px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section4 .four .projects .first-project .first h1 {
+    font-size: 4vw;
+}
+
+.section4 .four .projects .first-project .first .about {
+    display: flex;
+}
+
+.section4 .four .projects .first-project .first .about h4 {
+    margin: 0 30px;
+    border: 1px solid #ccc;
+    padding: 7px 10px;
+    border-radius: 30px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all ease 1s;
+}
+
+.section4 .four .projects .first-project .first:hover h4 {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ========================================SECTION5=================== */
+
+.section5 {
+    height: 100vh;
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section5 .five {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.section5 .five .left,
+.section5 .five .right {
+    height: 100%;
+    width: 100%;
+    margin-left: 100px;
+}
+
+.section5 .five .right video {
+    height: 90%;
+    width: 90%;
+}
+
+.section5 .five .left .one {
+    overflow: hidden;
+    margin: 50px 0;
+}
+
+.section5 .five .left h1 {
+    font-size: 2.5vw;
+}
+
+/* ================================SECTION6================= */
+
+.section6 {
+    min-height: 50vh;
+    width: 100%;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 140px;
+}
+
+.section6 .six .left {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section6 .six .move {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    white-space: nowrap;
+    animation: scrolling linear infinite 15s;
+}
+
+.section6 .six .move h1 {
+    font-size: 4vw;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.section6 .six .move span {
+    color: black;
+}
+
+.section6 .six .move i {
+    margin: 0 30px;
+    font-size: 50px;
+    color: black;
+}
+
+@keyframes scrolling {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.section6 .six .right {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+    white-space: nowrap;
+}
+
+.section6 .six .right .like {
+    display: flex;
+    gap: 60px;
+    width: 100%;
+    margin-right: 500px;
+    white-space: nowarp;
+    animation: like linear infinite 15s;
+}
+
+.section6 .six .right .like .one {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.section6 .six .right .like .one h1 {
+    font-size: 4vw;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.section6 .six .right .like .one h1 span {
+    font-size: 3.7vw;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.section6 .six .right .like .one i {
+    font-size: 50px;
+    margin: 0 50px;
+    color: black;
+}
+
+@keyframes like {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+/* =============================section61======================== */
+
+.section61 {
+    height: 100vh;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+
+  }
+
+  .section61 .text{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    
+  }  
+  .section61 .text h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  .section61 .text-right{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    padding: 30px;
+  } 
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .section61 .text-right h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    margin-right: 100px;
+    margin-top: 30px;
+  }
+  .section61 .text-right #date{
+    margin-left: 250px;
+    font-size: 19px;
+    color: white;
+  }
+  .section61 .text-right #number{
+    color: yellowgreen;
+    font-size: 20px;
+  }
+  li span{
+    margin-right: 50px;
+    margin-top: 30px;
+    font-size: 18x;
+    text-wrap: nowrap;
+  }
+  li span:first-child {
+    font-weight: bold;
+  }
+  li span:last-child {
+    font-size: 12px;
+    color: #999;
+  }
+
+
+
+
+/* =============================section7======================== */
+
+/* PAGE-12 */
+
+/* .page12{
+    min-height: 100vh;
+    width: 100%;
+    
+}
+.p12-1{
+    height: 60px;
+    width: 100%;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.p12-1 h5{
+    width: 100%;
+    text-align: center;
+    font-size: 1vw;
+    color: #FFFFFF;
+}
+
+.p12-cont{
+    height: 20vh;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+
+}
+.container{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.container h4{
+    width: 100%;
+    text-align: center;
+    font-size: 2.2vw;
+    line-height: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+.container i{
+    font-size: 4vw;
+    font-weight: 400;
+    color: #FFFFFF;    
+}
+.cont2{
+    height: 15vh;
+    width: 100%;
+    background-color: #222222;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-out 0.3s;
+}
+.cont2::-webkit-scrollbar{
+    display: none;
+}
+.cont2 h1{
+    font-size: 2.5vw;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 300;
+    display: inline-block;
+    margin-right: 30px;
+    animation-name:scroll;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    margin-right: 100px;
+    line-height: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+}
+.cont2 h1 span{
+    font-size: 2.5vw;
+    color: #000;
+    margin-right: 50px;
+}
+.cont2 h1 #star{
+    font-size: 60px;
+    color: yellowgreen;
+    margin-left: 30px;
+}
+.cont2 h1 #agency{
+    color: #474747;
+}
+@keyframes scroll {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-100% - 34px));
+    }
+}
+
+.p12-cont:hover .container{
+    background-color: #222222;
+    opacity: 0;
+    
+}
+.p12-cont:hover .cont2{
+    opacity: 1;
+    transform: translateY(-100%);
+    background-color: #222222;
+    color: white;
+}
+.p12-cont:hover .cont2 h1{
+    color: white;
+}
+ */
+
+/* =======================Section-7======================== */
+
+/* .section7 {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+
+.s7-video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 320px;
+  height: 400px;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.s7-video-container video {
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.content {
+  text-align: center;
+  color: white;
+  z-index: 99;
+} */
