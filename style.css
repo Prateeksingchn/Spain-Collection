@@ -3,68 +3,14 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Nunito', sans-serif;
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
     font-style: normal;
     scroll-behavior: smooth;
-    z-index: 99;
 }
-.poppins-thin {
-    font-family: "Poppins", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-  }
-  
-  .poppins-extralight {
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-  }
-  
-  .poppins-light {
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .poppins-regular {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .poppins-medium {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .poppins-semibold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-  }
-  
-  .poppins-bold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .poppins-extrabold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-  }
-  
-  .poppins-black {
-    font-family: "Poppins", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-  
+
 .container {
     width: 95%;
     margin: auto;
@@ -118,7 +64,7 @@
     color: yellow;
 }
 
-/* CURSOR */
+/* NOW LETS MAKE OUR CURSOR */
 .cursor {
     width: 18px;
     height: 18px;
@@ -291,9 +237,6 @@
     align-items: center;
     justify-content: space-between;
 }
-.section4 .four .projects .first-project .first h1 {
-    font-size: 4vw;
-}
 
 .section4 .four .projects .first-project .first .about {
     display: flex;
@@ -360,38 +303,35 @@
     width: 100%;
     justify-content: center;
     overflow: hidden;
-    margin-top: 140px;
 }
 
 .section6 .six .left {
     display: flex;
-    gap: 30px;
     justify-content: space-between;
     align-items: center;
 }
 
 .section6 .six .move {
     display: flex;
-    gap: 60px;
     align-items: center;
     white-space: nowrap;
     animation: scrolling linear infinite 15s;
 }
 
 .section6 .six .move h1 {
-    font-size: 4vw;
+    font-size: 3.7vw;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 900;
 }
 
 .section6 .six .move span {
-    color: black;
+    color: red;
 }
 
 .section6 .six .move i {
     margin: 0 30px;
     font-size: 50px;
-    color: black;
+    color: red;
 }
 
 @keyframes scrolling {
@@ -406,7 +346,6 @@
 
 .section6 .six .right {
     display: flex;
-    gap: 80px;
     align-items: center;
     justify-content: center;
     margin: 30px 0;
@@ -415,9 +354,7 @@
 
 .section6 .six .right .like {
     display: flex;
-    gap: 60px;
     width: 100%;
-    margin-right: 500px;
     white-space: nowarp;
     animation: like linear infinite 15s;
 }
@@ -429,20 +366,15 @@
 }
 
 .section6 .six .right .like .one h1 {
-    font-size: 4vw;
-    font-weight: 400;
-    text-transform: uppercase;
-}
-.section6 .six .right .like .one h1 span {
     font-size: 3.7vw;
-    font-weight: 600;
+    font-weight: 800;
     text-transform: uppercase;
 }
 
 .section6 .six .right .like .one i {
     font-size: 50px;
     margin: 0 50px;
-    color: black;
+    color: red;
 }
 
 @keyframes like {
@@ -455,239 +387,73 @@
     }
 }
 
-/* =============================section61======================== */
-
-.section61 {
-    height: 100vh;
-    color: white;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-
-  }
-
-  .section61 .text{
-    height: 100%;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    padding: 30px;
-    
-  }  
-  .section61 .text h1 {
-    font-size: 20px;
-    margin-bottom: 20px;
-    margin-top: 30px;
-  }
-  .section61 .text-right{
-    height: 100%;
-    width: 50%;
-    display: flex;
-    justify-content: start;
-    padding: 30px;
-  } 
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  li {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-  }
-  .section61 .text-right h2{
-    font-size: 30px;
-    font-weight: 500;
-    margin-bottom: 15px;
-    margin-right: 100px;
-    margin-top: 30px;
-  }
-  .section61 .text-right #date{
-    margin-left: 250px;
-    font-size: 19px;
-    color: white;
-  }
-  .section61 .text-right #number{
-    color: yellowgreen;
-    font-size: 20px;
-  }
-  li span{
-    margin-right: 50px;
-    margin-top: 30px;
-    font-size: 18x;
-    text-wrap: nowrap;
-  }
-  li span:first-child {
-    font-weight: bold;
-  }
-  li span:last-child {
-    font-size: 12px;
-    color: #999;
-  }
-
-
-
-
 /* =============================section7======================== */
 
-/* PAGE-12 */
-
-/* .page12{
-    min-height: 100vh;
+.section7 {
+    height: 100vh;
     width: 100%;
-    
-}
-.p12-1{
-    height: 60px;
-    width: 100%;
-    padding-left: 90px;
-    padding-right: 90px;
-}
-.p12-1 h5{
-    width: 100%;
+    padding: 30px 0;
     text-align: center;
-    font-size: 1vw;
-    color: #FFFFFF;
 }
 
-.p12-cont{
-    height: 20vh;
-    width: 100%;
-    text-align: center;
+.section7 .follow .box {
+    margin: 50px 0;
+    padding: 15px 0;
+    /* background: aqua; */
+    position: relative;
     overflow: hidden;
-
-}
-.container{
-    height: 20vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 90px;
-    padding-right: 90px;
-}
-.container h4{
-    width: 100%;
-    text-align: center;
-    font-size: 2.2vw;
-    line-height: normal;
-    font-weight: 400;
-    color: #FFFFFF;
-    font-family: 'Roboto', sans-serif;
-}
-.container i{
-    font-size: 4vw;
-    font-weight: 400;
-    color: #FFFFFF;    
-}
-.cont2{
-    height: 15vh;
-    width: 100%;
-    background-color: #222222;
-    white-space: nowrap;
-    overflow-x: auto;
-    overflow-y: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all ease-out 0.3s;
-}
-.cont2::-webkit-scrollbar{
-    display: none;
-}
-.cont2 h1{
-    font-size: 2.5vw;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    font-weight: 300;
-    display: inline-block;
-    margin-right: 30px;
-    animation-name:scroll;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    margin-right: 100px;
-    line-height: 5vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #000;
-}
-.cont2 h1 span{
-    font-size: 2.5vw;
-    color: #000;
-    margin-right: 50px;
-}
-.cont2 h1 #star{
-    font-size: 60px;
-    color: yellowgreen;
-    margin-left: 30px;
-}
-.cont2 h1 #agency{
-    color: #474747;
-}
-@keyframes scroll {
-    0%{
-        transform: translateX(0);
-    }
-    100%{
-        transform: translateX(calc(-100% - 34px));
-    }
 }
 
-.p12-cont:hover .container{
+.section7 .follow .box .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     background-color: #222222;
     opacity: 0;
-    
+    transform: translateY(30px);
+    transition: .7s ease all;
+
 }
-.p12-cont:hover .cont2{
-    opacity: 1;
-    transform: translateY(-100%);
+
+.section7 .follow .box:hover .back {
     background-color: #222222;
-    color: white;
-}
-.p12-cont:hover .cont2 h1{
-    color: white;
-}
- */
-
-/* =======================Section-7======================== */
-
-/* .section7 {
-  margin: 0;
-  padding: 0;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
+    opacity: 1;
+    transform: translateY(0);
 }
 
+.section7 .follow .box .back .insta {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: red; */
+    animation: insta linear infinite 15s;
+    opacity: 0;
+    scale: .5;
+    transition: all ease .7s;
 
-.s7-video-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 320px;
-  height: 400px;
-  z-index: 1;
-  overflow: hidden;
 }
 
-.s7-video-container video {
-  min-width: 100%;
-  min-height: 100%;
-  object-fit: cover;
-  width: auto;
-  height: auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.section7 .follow .box:hover .back .insta {
+    opacity: 1;
+    scale: 1.1;
 }
 
-.content {
-  text-align: center;
-  color: white;
-  z-index: 99;
-} */
+.section7 .follow .box .back .insta h3 {
+    margin: 0 50px;
+    font-size: 2vw;
+    white-space: nowrap;
+}
+
+@keyframes insta {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
